@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<style>
+	body {
+    background-position: left top;
+    background-image: url("images/contact_background.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+	}
+	
+	@media screen and (max-width: 600px) {
+	body {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+	}
+}
+</style>
+</head>
+
+<body>
+<div class="navbar">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="french.html">French</a></li>
+  <li><a href="printables.html">Free Printables</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+	
+<div class = "bonjour" onmouseover="mOver(this)" onmouseout="mOut(this)">
+Mouse Over Me</div>
+
+<script>
+      function mOver(obj) {
+  obj.innerHTML = "Bonjour!"
+      }
+
+      function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+      }
+</script>
+	
+	<form method="post" id="contact">
+<fieldset><legend>LEAVE COMMENTS OR QUESTIONS</legend>
+  <div>
+    <label>Full Name: </label><input name="full-name" type="text" id="full-name" placeholder="Enter your full name"  size="60">
+  </div>
+  <div>
+	  <label>Address: </label><input name="address" type="text" id="address" placeholder="Enter your address" size="60">
+  </div>
+  <div>
+	  <label>E-mail: </label><input name="email" type="email" id="email" placeholder="Enter a valid e-mail address" size="60" required>
+  </div>
+  <div>
+	  <label>Comments: </label><textarea name="comment" cols="50" rows="10" id="comment" placeholder="Add comments or questions here"></textarea>
+  </div>
+</fieldset>
+	  <input name="submit" type="submit" id="submit">  
+</form>
+	
+
+<footer>
+	<p>Copyright 2021 Voici Zoe. All Rights Reserved.</p>
+</footer>
+	
+</body>
+</html>

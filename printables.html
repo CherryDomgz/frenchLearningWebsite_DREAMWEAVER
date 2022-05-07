@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Printables</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<style>
+	body {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("images/printable_background.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+	}
+</style>
+	
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+	
+</head>
+
+<body>
+<div class="navbar">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="french.html">French</a></li>
+  <li><a href="printables.html">Free Printables</a></li> 
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div class="freeprintables">
+
+  <div id="Tabs1">
+	  <ul>
+	    <li><a href="#tabs-1">Alphabet</a></li>
+	    <li><a href="#tabs-2">Counting</a></li>
+	    <li><a href="#tabs-3">Animals</a></li>
+    </ul>
+	  <div id="tabs-1"> 
+		<a href="documents/alphabets.pdf" target="_blank">
+	    <img src="images/alphabets.jpg" width="600" height="491" alt="alphabets"/>
+		</a> 
+	  </div>
+	  
+	  <div id="tabs-2"> 
+		  <a href="documents/Counting_1-20.pdf" target="_blank">
+		  <img src="images/Counting_1-10.jpg" width="400" height="300" alt="Counting 1-10"/>
+		  </a>
+		  
+          <a href="documents/Counting_1-20.pdf" target="_blank">
+		  <img src="images/Counting_11-20.jpg" width="400" height="300" alt="Counting 11-20"/>
+		  </a> 
+		  
+         <a href="documents/30_per10.pdf" target="_blank"><img src="images/30_per10.jpg" width="400" height="300" alt="Counting per 10 starting with number 30"/>
+		 </a> 
+	  </div>
+	  
+	  <div id="tabs-3"> 
+		  <a href="documents/Domestic_animals.pdf" target="_blank">
+		  <img src="images/Domestic_animals.jpg" width="400" height="300" alt="Domestic animals matching type"/>
+		  </a>
+		  
+      	  <a href="documents/farm_animals.pdf" target="_blank">
+		  <img src="images/farm_animals.jpg" width="400" height="300" alt="Farm animals matching type"/>
+		  </a>
+		  
+         <a href="documents/wild_animals.pdf" target="_blank">
+	     <img src="images/wild_animals.jpg" width="400" height="300" alt="Wild animals matching type"/>
+		 </a> 
+	  </div>
+  </div>
+</div>
+	
+<footer>
+	<p>Copyright 2021 Voici Zoe. All Rights Reserved.</p>
+</footer>
+	
+<script>
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
