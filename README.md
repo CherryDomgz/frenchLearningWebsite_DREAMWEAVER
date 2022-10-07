@@ -1,4 +1,4 @@
-# french-Learning-Website-DREAMWEAVER
+# French-Learning-Website-DREAMWEAVER
 A responsive colorful French learning website/blog for kids with free printables. 
 This website is made entirely using Adobe Dreamweaver.
 
