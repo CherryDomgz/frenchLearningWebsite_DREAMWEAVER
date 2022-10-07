@@ -2,7 +2,7 @@
 A responsive colorful French learning website/blog for kids with free printables. 
 This website is made entirely using Adobe Dreamweaver.
 
-🔗 https://cherrydomgz.github.io/Learning-Website-Dreamweaver/
+🔗 [https://cherrydomgz.github.io/Learning-Website-Dreamweaver/](https://cherrydomgz.github.io/frenchLearningWebsite_DREAMWEAVER/)
 
 PREVIEW
 
