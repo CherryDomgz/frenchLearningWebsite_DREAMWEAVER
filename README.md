@@ -4,7 +4,7 @@ This website is made entirely using Adobe Dreamweaver.
 
 🔗 [https://cherrydomgz.github.io/Learning-Website-Dreamweaver/](https://cherrydomgz.github.io/frenchLearningWebsite_DREAMWEAVER/)
 
-PREVIEW
+💜 PREVIEW
 
 ![image](https://user-images.githubusercontent.com/105072341/167267877-3ee315fa-b1d5-42fb-8254-ed60c8b22cf3.png)
 
